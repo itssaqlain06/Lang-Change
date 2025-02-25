@@ -1,5 +1,3 @@
-Below is a refined **README.md** file that should display properly on GitHub. The main issues often arise from missing line breaks or improperly closed code blocks. This version fixes any potential indentation or code fence issues, ensuring the table of contents and headings render correctly:
-
 ```markdown
 # Lang Change Translator with LangChain, LangSmith & Open AI
 
