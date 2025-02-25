@@ -134,11 +134,11 @@ This project uses [LangChain](https://langchain.readthedocs.io/) to manage promp
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any bugs, enhancements, or new features.
+Before contributing, please review the [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expectations for behavior in this project.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Non-Commercial Software License](LICENSE).
 
 ## Contact
 
