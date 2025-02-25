@@ -3,7 +3,6 @@
 import { NextResponse } from 'next/server';
 import { ChatPromptTemplate } from '@langchain/core/prompts';
 import { ChatOpenAI } from "@langchain/openai";
-import { HumanMessage, SystemMessage } from '@langchain/core/messages';
 
 const model = new ChatOpenAI({
   openAIApiKey: process.env.OPENAI_API_KEY,
