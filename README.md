@@ -1,9 +1,12 @@
+Below is a refined **README.md** file that should display properly on GitHub. The main issues often arise from missing line breaks or improperly closed code blocks. This version fixes any potential indentation or code fence issues, ensuring the table of contents and headings render correctly:
+
 ```markdown
 # Lang Change Translator with LangChain, LangSmith & Open AI
 
 A modern, responsive language translator built with Next.js, TypeScript, Tailwind CSS, and powered by LangChain’s LLM integrations (using OpenAI's GPT-3.5-turbo) with enhanced observability through LangSmith.
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -52,10 +55,13 @@ Below is a preview of the application in dark mode:
 - `react-toastify`
 
 You can install these packages with:
+
 ```bash
 npm install @langchain/core @langchain/openai dotenv langchain react-icons react-select react-toastify
 ```
-_or_
+
+Or using Yarn:
+
 ```bash
 yarn add @langchain/core @langchain/openai dotenv langchain react-icons react-select react-toastify
 ```
@@ -63,12 +69,14 @@ yarn add @langchain/core @langchain/openai dotenv langchain react-icons react-se
 ## Setup & Installation
 
 1. **Clone the Repository**
+
    ```bash
-   git clone https://github.com/yourusername/language-translator.git
+   git clone https://github.com/itssaqlain06/LangChange.git
    cd language-translator
    ```
 
 2. **Install Dependencies**
+
    ```bash
    npm install
    # or
@@ -92,6 +100,7 @@ yarn add @langchain/core @langchain/openai dotenv langchain react-icons react-se
 ### Environment Variables
 
 Create a `.env.local` file in the root directory and add:
+
 ```env
 OPENAI_API_KEY=your-openai-api-key
 LANGSMITH_TRACING=true
@@ -101,11 +110,13 @@ LANGSMITH_API_KEY=your-langsmith-api-key
 ## Running the App
 
 Start the development server:
+
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
 Then, open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## LangChain & LangSmith
@@ -139,4 +150,3 @@ For questions or support, please reach out to [itssaqlain06@gmail.com](mailto:it
 If you find this project useful, please give it a ⭐
 
 Happy Translating!
-```
