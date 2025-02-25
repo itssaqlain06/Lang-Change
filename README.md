@@ -1,28 +1,29 @@
-```markdown
 # Lang Chnage Translator with LangChain, LangSmith & Open AI
 
 A modern, responsive language translator built with Next.js, TypeScript, Tailwind CSS, and powered by LangChain’s LLM integrations (using OpenAI's GPT-3.5-turbo) with enhanced observability through LangSmith.
 
 ## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup & Installation](#setup--installation)
-- [Configuration](#configuration)
-  - [Obtain OpenAI API Key](#obtain-openai-api-key)
-  - [Obtain LangSmith API Key](#obtain-langsmith-api-key)
-- [Running the App](#running-the-app)
-- [LangChain & LangSmith](#langchain--langsmith)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Lang Chnage Translator with LangChain, LangSmith \& Open AI](#lang-chnage-translator-with-langchain-langsmith--open-ai)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Configuration](#configuration)
+    - [Obtain OpenAI API Key](#obtain-openai-api-key)
+    - [Obtain LangSmith API Key](#obtain-langsmith-api-key)
+    - [Environment Variables](#environment-variables)
+  - [Running the App](#running-the-app)
+  - [LangChain \& LangSmith](#langchain--langsmith)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Overview
 
 This project is a full-stack language translator application that allows users to input text (or record voice) in one language and translate it into another. It leverages LangChain for managing language model interactions and LangSmith for detailed observability, all wrapped in a sleek Next.js interface with dark/light mode support.
 
-![Dark Mode UI Preview](./demo.png)
+![Dark Mode UI Preview](![Dark mode lang change](https://github.com/itssaqlain06/LangeChange/blob/main/demo.png))
 
 ## Features
 
