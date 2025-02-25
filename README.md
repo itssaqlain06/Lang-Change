@@ -70,7 +70,7 @@ yarn add @langchain/core @langchain/openai dotenv langchain react-icons react-se
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/itssaqlain06/LangChange.git
+   git clone https://github.com/itssaqlain06/Lang-Change.git
    cd language-translator
    ```
 
