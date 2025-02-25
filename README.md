@@ -1,38 +1,40 @@
-# Lang Chnage Translator with LangChain, LangSmith & Open AI
+```markdown
+# Lang Change Translator with LangChain, LangSmith & Open AI
 
 A modern, responsive language translator built with Next.js, TypeScript, Tailwind CSS, and powered by LangChain’s LLM integrations (using OpenAI's GPT-3.5-turbo) with enhanced observability through LangSmith.
 
 ## Table of Contents
-- [Lang Chnage Translator with LangChain, LangSmith \& Open AI](#lang-chnage-translator-with-langchain-langsmith--open-ai)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Features](#features)
-  - [Prerequisites](#prerequisites)
-  - [Configuration](#configuration)
-    - [Obtain OpenAI API Key](#obtain-openai-api-key)
-    - [Obtain LangSmith API Key](#obtain-langsmith-api-key)
-    - [Environment Variables](#environment-variables)
-  - [Running the App](#running-the-app)
-  - [LangChain \& LangSmith](#langchain--langsmith)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Setup & Installation](#setup--installation)
+- [Configuration](#configuration)
+  - [Obtain OpenAI API Key](#obtain-openai-api-key)
+  - [Obtain LangSmith API Key](#obtain-langsmith-api-key)
+  - [Environment Variables](#environment-variables)
+- [Running the App](#running-the-app)
+- [LangChain & LangSmith](#langchain--langsmith)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Overview
 
 This project is a full-stack language translator application that allows users to input text (or record voice) in one language and translate it into another. It leverages LangChain for managing language model interactions and LangSmith for detailed observability, all wrapped in a sleek Next.js interface with dark/light mode support.
 
-![Dark Mode UI Preview](![Dark mode lang change](https://github.com/itssaqlain06/LangeChange/blob/main/demo.png))
+Below is a preview of the application in dark mode:
+
+![Dark Mode UI Preview](./demo.png)
 
 ## Features
 
-- **Responsive UI** with dark/light mode toggling
-- **Voice Input** using the Web Speech API
-- **Dynamic Language Detection** that auto-selects the source language based on user input
-- **Searchable Dropdowns** for source and target languages
-- **Powered by OpenAI** with GPT-3.5-turbo for accurate translations
-- **Observability** via LangSmith for debugging and monitoring LLM calls
+- **Responsive UI** with dark/light mode toggling  
+- **Voice Input** using the Web Speech API  
+- **Dynamic Language Detection** that auto-selects the source language based on user input  
+- **Searchable Dropdowns** for source and target languages  
+- **Powered by OpenAI** with GPT-3.5-turbo for accurate translations  
+- **Observability** via LangSmith for debugging and monitoring LLM calls  
 
 ## Prerequisites
 
@@ -41,17 +43,22 @@ This project is a full-stack language translator application that allows users t
 - A code editor (e.g., Visual Studio Code)
 
 **Required Packages:**
-- `@langchain/core`  
-- `@langchain/openai`  
-- `dotenv`  
-- `langchain`  
-- `react-icons`  
-- `react-select`  
+- `@langchain/core`
+- `@langchain/openai`
+- `dotenv`
+- `langchain`
+- `react-icons`
+- `react-select`
 - `react-toastify`
 
 You can install these packages with:
 ```bash
 npm install @langchain/core @langchain/openai dotenv langchain react-icons react-select react-toastify
+```
+_or_
+```bash
+yarn add @langchain/core @langchain/openai dotenv langchain react-icons react-select react-toastify
+```
 
 ## Setup & Installation
 
@@ -132,3 +139,4 @@ For questions or support, please reach out to [itssaqlain06@gmail.com](mailto:it
 If you find this project useful, please give it a ⭐
 
 Happy Translating!
+```
