@@ -11,10 +11,10 @@ const detectionModel = new ChatOpenAI({
 export async function POST(req: Request) {
     try {
         const { text } = await req.json();
-        console.log('Received text:', text, 'Length:', text?.length);
+        // console.log('Received text:', text, 'Length:', text?.length);
 
         if (!text || text.trim().length < 2) {
-            console.log('Text too short or empty, returning "English" by default.');
+            // console.log('Text too short or empty, returning "English" by default.');
             return NextResponse.json({ language: 'English' });
         }
 
@@ -29,14 +29,14 @@ export async function POST(req: Request) {
         ]);
 
         const promptValue = await prompt.invoke({ text });
-        console.log('Formatted prompt messages:', promptValue.toChatMessages());
+        // console.log('Formatted prompt messages:', promptValue.toChatMessages());
 
         const response = await detectionModel.invoke(promptValue);
-        console.log('Raw model output:', response.content);
+        // console.log('Raw model output:', response.content);
 
         return NextResponse.json({ language: response.content.trim() });
     } catch (error) {
-        console.error('Language detection error:', error);
+        // console.error('Language detection error:', error);
         return NextResponse.json(
             { error: 'Could not detect language.' },
             { status: 500 }
