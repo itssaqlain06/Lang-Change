@@ -272,7 +272,6 @@ export default function TranslatorPage() {
           )}
         </main>
         <Footer />
-
       </div>
     </div>
   );
